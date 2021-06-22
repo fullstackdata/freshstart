@@ -19,7 +19,8 @@
 
 * Each key becomes a column name
 * Each value becomes its value in a record.
-* Reading [JSONL](https://jsonlines.org/) becomes as simple as vaex.from_json("s3://<bucket_name>/<prefix>/<object.json>")
+* Reading JSON becomes as simple as vaex.from_json("s3://<bucket_name>/<prefix>/<object.json>")
+* No support for [JSONL](https://jsonlines.org/) yet?
 * Newly returned object can be used with an API that's (almost?) similar to Pandas Dataframe API.
 
 ![Notebook Screenshot](vaex_json_ipynb.png)
