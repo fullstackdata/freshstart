@@ -20,7 +20,8 @@
 * Each key becomes a column name
 * Each value becomes its value in a record.
 * Reading JSON becomes as simple as vaex.from_json("s3://<bucket_name>/<prefix>/<object.json>")
-* No support for [JSONL](https://jsonlines.org/) yet?
+* Support for [JSONL](https://jsonlines.org/) - yes! Just like Pandas, use <b>lines=True</b>
+  * <code>data = pd.read_json('/path/to/file.json', lines=True)</code>
 * Newly returned object can be used with an API that's (almost?) similar to Pandas Dataframe API.
 
 ![Notebook Screenshot](vaex_json_ipynb.png)
