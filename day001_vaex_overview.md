@@ -18,6 +18,9 @@
 	* memory efficient
 * storage = hdf5 + arrow spec + memory mapping
 * free pipelines
+* memory mapped for efficiency
+	* but does not work with text formats like JSON
+	* from_json is simply a wrapper on pandas.read_json
 
 ## Domain specific libraries for
 * hdf5
