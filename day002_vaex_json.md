@@ -21,7 +21,12 @@
 * Each value becomes its value in a record.
 * Reading JSON becomes as simple as vaex.from_json("s3://<bucket_name>/<prefix>/<object.json>")
 * Support for [JSONL](https://jsonlines.org/) - yes! Just like Pandas, use <b>lines=True</b>
+* JSONL is a better format than JSON array because it is streamable, each line is a complete record/row.
   * <code>data = pd.read_json('/path/to/file.json', lines=True)</code>
 * Newly returned object can be used with an API that's (almost?) similar to Pandas Dataframe API.
+
+### Needs improvement
+ * Cannot open many JSON files like open_many on other formats.
+ * Iterate over the list of JSON files and load them individually.
 
 ![Notebook Screenshot](vaex_json_ipynb.png)
