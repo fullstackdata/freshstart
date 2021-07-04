@@ -9,10 +9,17 @@
   
    ![Spark Catalyst](https://github.com/fullstackdata/freshstart/blob/gh-pages/SparkCatalyst.png)
    
-   Transformations
+  ##### Transformations
+  * Transformations where the tree type is not changed
+  * Transformtations where the type is changes, for example, from logical to physical plan
   ##### Query Plans 
   * Logical plans
     * Ex: Join
   * Physica Plans
     * can be executed
     * Ex: Sort-Merge join
+
+  ##### Optimizations
+  * Predicate pushdown
+  * Projection (columnar pruning)
+  
