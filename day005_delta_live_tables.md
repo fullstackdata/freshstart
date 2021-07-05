@@ -19,5 +19,9 @@
   * optimization like zorder
 
 ###### Jobs Tab
-* Create a pipeline
-* 
+* Create a pipeline.
+* Pipeline is a DAG (directed acyclic graph) of data flow.
+* Event details of a pipeline show the count of records that have been processed or the count of records that have failed validation.
+* Event log can be queried. 
+* Reports or dashboards can be created to show the status of these pipelines.
+* Orchestration is possible to trigger other jobs to run an end to end workflow
