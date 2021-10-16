@@ -30,3 +30,8 @@ Ines Montani's wonderful tutorial - https://www.youtube.com/watch?v=THduWAnG97k
 - Custom attributes <code>._</code> property.
 - Need to be registered on the global Doc, Span and Token classes.
 - Using <code>set_extension</code>, defaults can also be set using <code>default</code> attribute.
+
+### Scaling & performance
+- nlp.pipe is different from Pipeline
+- ![Screenshot from 2021-10-16 08-58-25](https://user-images.githubusercontent.com/3958917/137588447-7c9b4c13-b424-4e25-a9ee-f799fe2655a7.png)
+
