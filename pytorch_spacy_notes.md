@@ -24,3 +24,8 @@ Ines Montani's wonderful tutorial - https://www.youtube.com/watch?v=THduWAnG97k
 
 ### Pipeline
 - Tagger, Parser, NER - is this order needed?
+- Text categories are always very specific, so they are not included in any pretrained models by default.
+- nlp.add_pipe
+- Tokenizer is detached from other components, adding a component as the <b>first</b> makes it available right after the tokenizer.
+- Custom attributes <code>._</code> property.
+- 
