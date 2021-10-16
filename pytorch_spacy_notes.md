@@ -17,3 +17,10 @@ Ines Montani's wonderful tutorial - https://www.youtube.com/watch?v=THduWAnG97k
 
 - ![Lexemes are context independent](https://user-images.githubusercontent.com/3958917/137585620-9e6cd310-ad20-479f-af5f-e7669588774b.png)
 - doc.ents are writable.
+- doc and span objects are optimized, <b>convert them to strings as late as possible.</b>
+- Don't forget to pass around the shared vocab.
+- ??PhraseMatcher
+  - REVISIT
+
+### Pipeline
+- Tagger, Parser, NER - is this order needed?
