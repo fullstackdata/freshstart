@@ -5,9 +5,15 @@ Convert dataframe to a numpy array instead to make it fast.
 
 
 # Spacy
+Ines Montani's wonderful tutorial - https://www.youtube.com/watch?v=THduWAnG97k
+
 - nlp.vocab stores data shared across multiple documents
 - strings -> hashes
 - Hashes are irreversible, that's why the shared vocab is passed around.
 - Lookup table in <b>BOTH DIRECTIONS</b>
 - nlp.vocab, doc.vocab
-- 
+- Lexemes are <b>context independent</b>.
+
+
+- ![Lexemes are context independent](https://user-images.githubusercontent.com/3958917/137585620-9e6cd310-ad20-479f-af5f-e7669588774b.png)
+- doc.ents are writable.
