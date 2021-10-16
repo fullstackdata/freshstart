@@ -28,4 +28,5 @@ Ines Montani's wonderful tutorial - https://www.youtube.com/watch?v=THduWAnG97k
 - nlp.add_pipe
 - Tokenizer is detached from other components, adding a component as the <b>first</b> makes it available right after the tokenizer.
 - Custom attributes <code>._</code> property.
-- 
+- Need to be registered on the global Doc, Span and Token classes.
+- Using <code>set_extension</code>, defaults can also be set using <code>default</code> attribute.
